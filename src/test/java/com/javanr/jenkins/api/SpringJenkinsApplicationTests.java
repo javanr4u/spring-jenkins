@@ -15,6 +15,7 @@ class SpringJenkinsApplicationTests {
     void contextLoads() {
         logger.info("SpringJenkinsApplicationTests contextLoads starting...");
         logger.info("SpringJenkinsApplicationTests contextLoads starting second logger...");
+        logger.info("SpringJenkinsApplicationTests contextLoads starting Third Logger logger...");
         assertEquals(true, true);
     }
 
